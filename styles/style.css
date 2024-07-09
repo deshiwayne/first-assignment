@@ -3,6 +3,12 @@ nav{
     justify-content: space-around;
     
 }
+.main-photo{
+    display: flex;
+  justify-content: center;
+  margin-top: 26px;
+
+}
 .azeret-mono-normal{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -11,7 +17,12 @@ nav{
   
 /* picture center  */
 .overview{
-    align-content: center;
+    width: 998;
+    height: 581;
+    margin: 0 auto;
+    display: flex;
+
+
     
 }
 /* 1st part button style */
@@ -20,5 +31,11 @@ nav{
     color: aliceblue;
 }
 .second-part{
-   justify-content: center;
+   align-content: center;
+}
+main{
+    max-width: 1140px;
+}
+.third-part{
+    display: flex;
 }
