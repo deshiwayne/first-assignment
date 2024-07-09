@@ -14,4 +14,11 @@ nav{
     align-content: center;
     
 }
-
+/* 1st part button style */
+.b-style{
+    background-color: black;
+    color: aliceblue;
+}
+.second-part{
+   justify-content: center;
+}
