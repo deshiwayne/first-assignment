@@ -1,41 +1,289 @@
-nav{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.main-photo{
-    display: flex;
-  justify-content: center;
-  margin-top: 26px;
-
-}
-.azeret-mono-normal{
+*{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-/* picture center  */
-.overview{
-    width: 998;
-    height: 581;
-    margin: 0 auto;
+    font-style: normal; 
+    box-sizing: border-box;
+}
+
+.navbar{
     display: flex;
-
-
+    justify-content: space-around;
+    background:white;
     
 }
-/* 1st part button style */
-.b-style{
-    background-color: black;
-    color: aliceblue;
+
+
+
+.navbar .logo{
+    
+    font-size: 1em;
+
+
 }
-.second-part{
-   align-content: center;
+
+.button{
+
+    font-size: 15px;
+    background-color:white;
+    padding:10px 20px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+ 
+    
 }
-main{
-    max-width: 1140px;
+
+.content{
+    background-color:white;
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left:0px;
+   
+    
 }
-.third-part{
+
+.little{
+
+    position: relative;
+    left:40%;
+    right:40%;
+    transform: translateX(-50%,-50%);
+    padding:20px 10px;
+
+}
+
+
+.hero{
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-text{
+
+    
+  
+    position: relative;
+    text-align: center;
+
+}
+.contact{
+
+    background:rgb(19, 18, 18);
+    color:white;
+    padding:19px 16px 20px 15px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    left: 43%;
+    cursor: pointer;
+
+}
+
+
+.items{
+
+    width: 100%;
+    height: 100%;
+  
+
+}
+
+
+.motive,.sub{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+   
 }
+
+.motive{
+    padding :22px 1px 1px 12px
+}
+.sub{
+    padding:6px 4px 12px 17px;
+}
+
+.col-6{
+
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+
+}
+
+.con{
+
+    
+    position: relative;
+    left: 10%;
+    top:10%;
+    width:50%;
+    padding:10px 20px 1px 1px;
+}
+
+
+.col{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+   
+}
+.conten{
+    width:auto;
+}
+
+.par{
+    width: 50%;
+    line-height: 25px;
+}
+.par-sub{
+    width: 50%;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 18px;
+    width: 40%;
+    
+}
+.text-sub{
+    font-size: 18px;
+    width: 70%;
+
+
+}
+
+.button{
+
+    border:1px solid black;
+    padding:15px 20px;
+    border-radius: 5px;
+}
+
+.client{
+    width: 100%;
+    
+    position: relative;
+    left: 15%;
+    
+    
+    
+}
+
+
+
+.content-1{
+   
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px 17px 4px 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(204, 200, 200);
+    margin: 20px;
+
+}
+.title{
+   
+    width: 50%;
+    display:inline-block;
+    padding:10px;
+}
+
+.connect{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    
+  
+}
+
+.contact-section{
+
+    width: 70%;
+    background:url(../Assets/handshake.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+  
+   
+
+    position: relative;
+    left:16%; 
+    border-radius: 15px;
+    border: 1px solid rgb(204, 200, 200);
+    
+}
+
+input{
+    width: 50%;
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 200, 200);
+}
+.submit{
+    padding:13px 27px 13px 21px;
+    margin: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content:  space-around;
+    padding: 30px;
+}
+
+
+
+
+
+.frame{
+    
+    border: 1px solid rgb(167, 163, 163);
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 20%;
+    padding: 30px ;
+    border-radius: 15px;
+    background: rgb(243, 241, 241);
+}
+iframe{
+    border-radius: 15px;
+    width: 100%;
+}
+.more{
+    color:black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
